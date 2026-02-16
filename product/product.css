@@ -699,5 +699,418 @@ details[open] .summary-icon{
 .media-item1{
     padding-left: 40px;
 }
-
-
+/*/hamburger menu*/
+ .header-mobile,.hamburger-toggle,.nav,.logo-mobile,.header-search-mobile,.icon-text-mobile,.icon-wrapper,.text-icons-m ,.feature-section-for-m,.footer-mobile{
+    display: none;
+}
+.header-wrapper{
+    max-width: 1440px;
+    padding: 16px;
+    height: 86px;
+    margin: 0 auto;
+    position: relative;
+}
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    z-index:101 ;
+}
+.hamburger span {
+    height: 4px;
+    width: 20px;
+    margin-top: 3px;
+    background-color:rgba(3, 35, 64, 1);
+    transition: all  0.3s ease;
+}
+@media(max-width:768px){
+.hamburger-toggle,.nav,.logo-mobile,.header-search-mobile,.icon-text-mobile,.header-mobile,.icon-wrapper,.text-icons-m,.footer-mobile{
+    display: block;
+}
+.main-nav,.logo,.header-search,.icons-wrapper,.breadcrumb,.galerry,.filter-box,.footer-content,.box-number,.text-box{
+    display: none;
+}
+.container{
+    width: 100%;
+    min-width: 360px;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    direction: rtl;
+}
+/*icon-text-mobile*/
+.icon-text-mobile{
+    max-width: 380px;
+    min-width:310px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight:300;
+}
+.header-wrapper,.site-header ,.header-mobile{
+    margin: 0px auto; 
+}
+/*/hamburger-menu-for-mobile*/
+.icon-wrapper{
+    order: 3;
+}
+.logo-mobile{
+    order:2;
+}
+.mobile-logo{
+    width:100%;
+    max-width: 95px;
+    min-width:89px ;
+    height: 19px;
+    letter-spacing: 10px;
+}
+.hamburger{
+    display: flex;
+    order: 1;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    margin-right: 30px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color:rgba(255,84,28,1);
+    flex-direction: column;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 3s ease;
+}
+.nav-list1{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    flex-direction: column;
+    gap:0;
+    width:100%;
+}
+.nav-item1 a {
+    color:blueviolet;
+    text-decoration: none;
+}
+.nav .nav-item1 {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(237,237,237,1);
+    display:flex;
+    align-items: center;
+}
+.header-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-hamburger-mobile{
+    width: 100%;
+    max-width: 360px;
+    min-width: 310px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.hamburger-toggle:checked ~ .nav {
+    max-height: 500px;
+}
+.header-search-mobile{
+    min-width: 310px;
+    max-width: 360px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.search-icon-mobile{
+    position: absolute;
+    z-index: 10;
+    top: 7px;
+    right: 30px;
+}
+.search-input-mobile{
+    width: 100%;
+    min-width: 310px;
+    max-width: 370px;
+    height: 40px;
+    border-radius: 16px;
+    background-color:rgba(249, 249, 249, 1);
+    padding-right: 55px;
+    z-index: 7;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(134, 134, 134, 1);
+}
+.header-wrapper{
+    height: auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+.text-icons-m{
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 60px;
+    margin-top: -10px;
+}
+.text-header{
+    font-size:14px ;
+    font-weight:400 ;
+}
+.box-mobile{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/*feature-section-for-mobile*/
+.feature-section-for-m{
+    min-width: 310px;
+    max-width: 370px;
+    display: block;
+    display: grid;
+    grid-template-columns: 312px;
+    grid-template-rows: 134px 134px 134px 134px 134px 134px 134px 134px 134px ;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    padding-right: 5px;
+    margin: 10px auto;
+}
+.box-img-mobile{
+    background-color: rgba(249, 249, 249, 1);
+    border-radius: 16px;
+    display: flex;
+    gap: 25px;
+}
+.promo-box1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.dress-woman1{
+    font-size: 12px;
+    font-weight: 400;
+    width: 82px;
+    height: 1px;
+    margin-right: -10px;
+}
+.dress-size1{
+    font-size:10px ;
+    font-weight:400 ;
+}
+.dress-price1,.dress-price2{
+    font-size: 12px;
+    font-weight: 400;
+}
+.dress-price2{
+    color: rgba(134, 134, 134, 1);
+}
+.icon-stars{
+    width:100px;
+    height: 15px;
+}
+.text-img-for-m{
+    display:flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.dress-prices{
+    width: 193px;
+    height: 19px;
+}
+.circle-color{
+    margin-right: -10px;
+}
+.image-group{
+    min-width: 103px;
+    max-width: 120px;
+    position: relative;
+    height: 134px;
+}
+.image{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/*/footer*/
+.details-container{
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 224px;
+}
+.footer-text1{
+    font-weight: 400;
+    font-size: 14px;
+}
+.input-wrapper{
+    margin: 30px auto;
+}
+.custom-hr{
+    max-width: 350px;
+    min-width: 330px;
+    margin: 15px auto;
+    background-color: rgba(25, 65, 101, 1);
+    height: 1px;
+    border: none;
+    position: absolute;
+    right: 7%;
+    transform: translateY(20px);
+    top: 30%;
+}
+.footer-mobile{
+    display: block;
+    width: 100%;
+    min-width: 330px;
+    max-width: 390px;
+    height: 1000px;
+    background-color: rgba(2, 21, 38, 1);
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+.email-input{
+    width: 100%;
+    max-width: 312px;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.list-item1{
+    font-weight: 400;
+    font-size: 14px;
+}
+.accordion-summary{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(237, 237, 237, 1);
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+}
+.summary-icon{
+    position:absolute;
+    left: 8%;  
+}
+.summary-text{
+    padding-right: 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.icon-list,.footer-text1{
+    margin-right: 30px;
+}
+.icon-list{
+    margin-top: -15px;
+}
+.brand-text{
+    font-size: 14px;
+    color: rgba(237, 237, 237, 1);
+    margin-bottom: 15px;
+}
+.about-fitland{
+    font-size: 12px;
+    font-weight: 400px;
+    width: 100%;
+    max-width: 312px;
+    color:rgba(237, 237, 237, 1);
+}
+.about-fitland1{
+    color:rgba(173, 173, 173, 1);
+}
+.about-fitland2{
+    color: rgba(173, 173, 173, 1);
+    font-size: 14px;
+    font-weight: 400;
+    list-style: none;
+}
+.fitland-info{
+    margin: 0px auto;
+}
+.red-color{
+    color: red;
+}
+.media-wrapper{
+    width: 100%;
+    max-width:251px ;
+    height: 123px;
+    margin-right: 45px;
+}
+.hr-line{
+    width: 100%;
+    max-width: 390px;
+    border:none;
+    height: 2px;
+    background-color: rgba(203, 203, 203, 1);
+}
+.footer-branding{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -20px;
+}
+.media-item{
+    width: 100%;
+    max-width: 400px;
+    font-weight: 400px;
+    font-size: 10px;
+    color: rgba(173, 173, 173, 1);
+}
+.media-item2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.media-item3{
+    margin-right: -20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.media-item4{
+    margin-top: -20px;
+}
+.img-wrapper{
+    width: 100%;
+    min-width: 390px;
+    max-width: 440px;
+    height: 40px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -3%;
+    left: 0;
+}
+.input-icon{
+    right: 11%;
+}
+.email-input{
+    padding-right: 38px;
+}
+.btn-action{
+    left: 35px;
+}
+}
