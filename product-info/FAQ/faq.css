@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "vazirmatn" , sans-serif;
+}
+body{
+    background-color:  rgba(255, 255, 255, 1);
+    line-height: 1.6;
+    direction: rtl;
+}
+.container{
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+/*header*/
+.site-header{
+    width: 100%;
+    max-width: 1224px;
+    margin:20px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.header-wrapper{
+    width: 100%;
+    max-width: 1039px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*logo*/
+.logo{
+    width: 100%;
+    max-width: 127.41px;
+    height: auto;
+}
+.logo-main{
+    width: 100%;
+    max-width: 127.41px;
+    height: 27.18px;
+}
+/*header-search*/
+.header-search{
+    width: 100%;
+    max-width: 638px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    background-color: aqua;
+}
+.search-icon{
+    position: absolute;
+    right:9.5%;
+    bottom: 5px;
+}
+.search-input{
+    width: 100%;
+    max-width: 541.93px;
+    height: 40.77px;
+    border-radius: 16px;
+    border: 1px solid rgba(237, 237, 237, 1);
+    padding-right:40px;
+    font-size: 11px;  
+    color:rgba(134, 134, 134, 1) ;
+    font-weight: 400;
+}
+/*icons-wrapper*/
+.icons-wrapper{
+    width: 100%;
+    max-width: 218px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 15px;
+    transform: translateX(30px);
+}
+.icon-button{
+    width: 100%;
+    max-width: 62px;
+    height: 41px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 15px #e0e0e0;
+    border: 2px solid  rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-right: auto;
+} 
+.icons-group{
+    position: relative;
+    margin-left: -30px;
+    transform: translateY(2px);
+} 
+.big-circle{ 
+    position: absolute;
+    top:-4px;
+    left:-4px;
+    z-index: 1;
+}
+.size-icon{
+    font-size: 10px;
+}
+/*main-nav*/
+.main-nav{
+    width: 100%;
+    max-width: 1039px;
+    margin: 25px auto;
+    border-radius: 16px;
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: px;
+}
+.nav-list{
+    max-width: 1039px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 35px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+ .main-nav , .menu-item{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
