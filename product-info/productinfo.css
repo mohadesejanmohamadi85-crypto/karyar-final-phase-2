@@ -870,7 +870,7 @@ input[type="checkbox"]{
 .header-logo,.header-search,.header-actions,.main-nav,.related-products,.product-features,.footer,.product-gallery-main,.product-image,.badge-text-desktop,.product-price,.container-btn,.product-tabs,.review-avatar,.form-fieldset,.product-card,.footer-list,.footer-info-inner{
     display: none;
 }
-.header-mobile,.header-search-mobil,.nav,.product-gallery-main-mobile,.products-image-mobile,.badge-text-mobile,.group-circle-color-m,.price-action,.product-tabs-mobile,.form-field-mobile,.footer-mobile,.about-fitland,.footer-about-item,.text-danger,.footer-text-secondary,.fitland-info,.footer-image{
+.header-mobile,.header-search-mobil,.nav,.product-gallery-main-mobile,.products-image-mobile,.badge-text-mobile,.price-action,.product-tabs-mobile,.form-field-mobile,.footer-mobile,.about-fitland,.footer-about-item,.text-danger,.footer-text-secondary,.fitland-info,.footer-image{
     display: block;
 }
 /*icon-text-mobile*/
@@ -916,7 +916,7 @@ input[type="checkbox"]{
     flex: 1;
     margin-right: 30px;
     position: absolute;
-    top: 60px;
+    top: 80px;
     right: 0;
     width: 100%;
     background-color:rgba(255,84,28,1);
@@ -925,6 +925,7 @@ input[type="checkbox"]{
     max-height: 0;
     overflow: hidden;
     transition: max-height 3s ease;
+    z-index: 1000;
 }
 .nav-list1{
     display: flex;

@@ -756,6 +756,9 @@ details[open] .filters-summary-icon{
     font-size: 14px;
     color: rgba(255, 255, 255, 1);
 }
+input[type="checkbox"]{
+    display: none;
+}
 /*/hamburger menu*/
  .header-mobile,.hamburger-toggle,.nav,.logo-mobile,.header-search-mobile,.icon-text-mobile,.icon-wrapper,.header-icons-mobile ,.products-mobile,.details-container,.fitland-info,.footer-image{
     display: none;
