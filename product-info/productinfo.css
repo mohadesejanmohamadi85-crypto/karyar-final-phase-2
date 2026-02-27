@@ -838,7 +838,7 @@ body{
     padding-left: 10px;
 }
 /*/hamburger menu*/
-.header-mobile,.header-search-mobil,.nav,.products-image-mobile,.badge-text-mobile,.product-gallery-main-mobile,.group-circle-color-m,.price-action,.product-tabs-mobile,.form-field-mobile,.details-container,.about-fitland,.footer-about-item,.text-danger,.footer-text-secondary,.footer-image,.fitland-info{
+.header-mobile,.header-search-mobil,.nav,.products-image-mobile,.badge-text-mobile,.product-gallery-main-mobile,.price-action,.product-tabs-mobile,.form-field-mobile,.details-container,.about-fitland,.footer-about-item,.text-danger,.footer-text-secondary,.footer-image,.fitland-info{
     display: none;
 }
 .header-wrapper{
